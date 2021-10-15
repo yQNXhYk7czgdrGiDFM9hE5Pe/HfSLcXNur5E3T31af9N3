@@ -3,20 +3,19 @@
 body {
     margin: 0;
     padding: 0;
-    padding-top: 5%;
     background: #212529;
 }
 h1 {
     font-family: 'Work Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #e9ecef;
     text-align: justify;
     text-justify: inter-word;
     position: absolute;
     margin: 0;
     padding: 0;
-	  top: 10%;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
     max-width: 55ch;
 }
